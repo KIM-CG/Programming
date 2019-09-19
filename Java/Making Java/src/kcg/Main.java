@@ -6,23 +6,26 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int i, num;
+        int i, j, num, min = 0;
         System.out.print("입력하려는 수의 개수 >>> ");
         num = sc.nextInt();
         int [] list = new int [num];
+        int [] save = new int [num];
         for(i = 0; i < num; i++) {
             System.out.print((i+1) + "번째 수 입력 >>> ");
             list[i] = sc.nextInt();
         }
-        int temp = list[0], save;
-        for (i = 1; i < num; i++) {
-            if (list[i] > temp) {
-                save = list[i];
-                list[i] = temp;
-                temp = save;
+        for(i = 0; i < num; i++) {
+            for (j = 0; j < list.length; j++) {
+                if(list[j] < min) {
+                    min = list[j];
+                }
             }
+
+            save[i] = min;
+            min = 0;
         }
-        for(int str:list) {
+        for(int str:save) {
             System.out.print(str + " ");
         }
     }
