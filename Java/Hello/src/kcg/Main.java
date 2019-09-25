@@ -2,66 +2,66 @@ package kcg;
 
 import java.util.Scanner;
 
+
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String source_plain  = scan.nextLine();
-        String source_encryption_key = scan.nextLine();
-        char plain_text [] = new char[source_plain.length()];
-        char encryption_key[] = new char[source_encryption_key.length()];
-        for (int i = 0; i < source_plain.length();i++){
-            encryption_key[i] = encryption_key.charAt(i);
-            plain_text[i] = (char)(source_plain.charAt(i)-32);
-            System.out.print(plain_text[i]);
+        int i, j = 0;
+        String plain;
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            System.out.print("암호하려는 이진수 4비트를 입력해주세요 >>> ");
+            plain = sc.next();
+            if (plain.length() == 4) break;
+            else System.out.println("4비트를 입력해주세요.");
+        }
+        char [] LE = new char[2], RE = new char[2], TMP1 = new char[2], TMP2 = new char[2];
+        //반절 나누기
+        for (i = 0; i < 2; i++) {
+            LE[i] = plain.charAt(i);
+            RE[i] = plain.charAt(i + 2);
+        }
+        for(i = 0; i < 2; i++) {
+            if (i == 0) {
+                if ((RE[0] == 0 && RE[1] == 0)) {
+                    RE[0] = 1; RE[1] = 0;
+                } else if ((RE[0] == 0 && RE[1] == 1)) {
+                    RE[0] = 0; RE[1] = 0;
+                } else if ((RE[0] == 1 && RE[1] == 0)) {
+                    RE[0] = 1; RE[1] = 1;
+                } else if ((RE[0] == 1 && RE[1] == 1)) {
+                    RE[0] = 1; RE[1] = 0;
+                }
+                for(j = 0; j < 2; j++) {
+                    TMP1[j] = RE[j];
+                    TMP2[j] = (char) (LE[j] ^ RE[j]);
+                    LE[j] = TMP1[j];
+                    RE[j] = TMP2[j];
+                }
+            }
+            else {
+                if ((RE[0] == 0 && RE[1] == 0)) {
+                    RE[0] = 0; RE[1] = 0;
+                } else if ((RE[0] == 0 && RE[1] == 1)) {
+                    RE[0] = 1; RE[1] = 1;
+                } else if ((RE[0] == 1 && RE[1] == 0)) {
+                    RE[0] = 1; RE[1] = 0;
+                } else if ((RE[0] == 1 && RE[1] == 1)) {
+                    RE[0] = 0; RE[1] = 1;
+                }
+                for(j = 0; j < 2; j++) {
+                    TMP1[j] = RE[j];
+                    TMP2[j] = (char) (LE[j] ^ RE[j]);
+                    LE[j] = TMP1[j];
+                    RE[j] = TMP2[j];
+                }
+            }
+        }
+        System.out.print("암호 : ");
+        for (i = 0; i < 2; i++) {
+            System.out.print(LE[i]);
+        }
+        for (i = 0; i < 2; i++) {
+            System.out.print(RE[i]);
         }
     }
-
-
-
-    /*static char a[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
-            'u', 'v', 'w', 'x', 'y', 'z'};
-    static char b[] = new char[26];
-    static String ciper;
-    static int shift=0;
-    public static void main(String[] args) {
-
-
-
-        Scanner sc = new Scanner(System.in);
-
-
-
-        System.out.println("암호문을 입력하시오");
-
-        ciper =sc.next();
-
-        System.out.println("shift를 입력하시오:");
-
-        shift = sc.nextInt();
-
-        shift();
-        find();
-    }
-     public static void shift() {
-
-         for (int i = 0; i < shift; i++) {
-
-
-             for (int j = 0; j < 26; j++) {
-
-             }
-
-         }
-
-     }
-     public static void find() {
-
-
-
-
-     }
-
-
-
- */
 }
