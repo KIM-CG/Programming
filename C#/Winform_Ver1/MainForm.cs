@@ -36,5 +36,13 @@ namespace Winform_Ver1
         {
             Application.Exit();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBox1.Checked)
+            {
+                
+            }
+        }
     }
 }
