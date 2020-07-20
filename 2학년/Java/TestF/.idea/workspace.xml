@@ -1,30 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e096fd7b-b214-44cc-a0dd-4a9a339ea97a" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="e096fd7b-b214-44cc-a0dd-4a9a339ea97a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JSP/20200518/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSP/20200518/.idea/libraries/JAX_WS_Apache_Axis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSP/20200518/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSP/20200518/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSP/20200518/20200518.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JSP/20200518/src/example/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/20200406/20200406.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/20200406/20200406.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/20200413/20200413.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/20200413/20200413.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/20200420/20200420.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/20200420/20200420.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/20200420/out/artifacts/20200420_war_exploded/d.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/20200420/out/artifacts/20200420_war_exploded/d.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/20200420/web/d.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/20200420/web/d.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/20200420/web/e.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/20200420/web/e.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/20200427/20200427.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/20200427/20200427.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/20200427/out/artifacts/20200427_war_exploded/driveTest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/20200427/out/artifacts/20200427_war_exploded/driveTest.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/20200427/out/production/20200427/META-INF/20200427.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/20200427/web/driveTest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/20200427/web/driveTest.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/20200504/20200504.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/20200504/20200504.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/FinalWebSite/FinalWebSite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/FinalWebSite/FinalWebSite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/TestWebSite/TestWebSite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/TestWebSite/TestWebSite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/TestWebSite/out/artifacts/TestWebSite_war_exploded/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/TestWebSite/out/artifacts/TestWebSite_war_exploded/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/TestWebSite/out/artifacts/TestWebSite_war_exploded/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/TestWebSite/out/artifacts/TestWebSite_war_exploded/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/TestWebSite/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/TestWebSite/web/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/TestWebSite/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/TestWebSite/web/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20200421/20200421.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../20200421/20200421.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../203page/203page.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../203page/203page.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../267page/267page.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../267page/267page.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../302page/302page.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../302page/302page.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookCode/BookCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookCode/BookCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProject/JavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProject/JavaProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PPT50/PPT50.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PPT50/PPT50.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestF/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestF/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectId" id="1b2PRRy9gxFR8RtuAYkJCN6DdbA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JSP/20200413" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -55,10 +92,34 @@
       <updated>1587827206115</updated>
       <workItem from="1587827208040" duration="2016000" />
       <workItem from="1587833311393" duration="632000" />
+      <workItem from="1589818955060" duration="3541000" />
+      <workItem from="1590365349646" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1340" height="261" key="GridCell.Tab.0.bottom" timestamp="1589824904053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589824904053" />
+    <state width="1340" height="261" key="GridCell.Tab.0.center" timestamp="1589824904053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589824904053" />
+    <state width="1340" height="261" key="GridCell.Tab.0.left" timestamp="1589824904053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589824904053" />
+    <state width="1340" height="261" key="GridCell.Tab.0.right" timestamp="1589824904053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589824904053" />
+    <state x="417" y="125" key="new project wizard" timestamp="1590365382556">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="417" y="125" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590365382556" />
   </component>
 </project>

@@ -15,7 +15,7 @@
                     2. 이동한 url이 보이기 때문에 사용자가 확인할 수 있다.
 
              */
-            response.sendRedirect("e.jsp");
+            //response.sendRedirect("e.jsp");
         %>
 
         <jsp:forward page="e.jsp" ></jsp:forward>
